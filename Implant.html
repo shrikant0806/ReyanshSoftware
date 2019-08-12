@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Reyansh Software</title>
+    <meta charset="utf-8">
+  
+<!--Booystap related File only-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script> 
+
+ 
+<!--Font Awesome-->
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+
+<!--Custome JS And CSS--> 
+<link href="css/theme.css" rel="stylesheet" type="text/css">
+
+<!--No cached Data no History-->
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+
+
+<style>
+    .justifiedp{
+        text-align: justify;
+       font-size: 18px;
+       letter-spacing: 1px;
+       line-height: 1.5;
+       
+    }    
+</style>
+
+<style>
+body
+{
+  background-color: #f2f2f2;
+}
+table {
+    border-collapse: collapse;
+    margin-right: 20%;
+  margin-left: 15%;
+  min-width: 70%;
+  max-width: 100%;
+}
+
+th, td {
+    text-align: left;
+        padding: 8px;
+        border-right: 1px solid white ;
+        }
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #2b1e56;
+    color: white;
+    }
+button{
+  background-color: #2b1e56;
+  color: white;
+  padding: 8px 40px;
+  font-size: 16px
+  border: 2px solid #2b1e56;
+
+}
+</style>
+
+
+
+</head>
+<body> 
+    <!--RM >> navigation Menu-->
+<header>
+    <div class="head-container">
+      <a href="index.html"><img src="img/1.PNG" alt="logo" class="logo"></a>
+    
+    <nav class="site-nav">
+      <ul>
+        <li><a class="nav-link" href="index.html"></i>Home</a></li>
+        <li><a class="nav-link " href="About.html"></i>About Us</a></li>  
+        <li><a class="nav-link " href="Services.html"></i>Our Services</a></li>
+        <li><a class="nav-link " href="Carrer.html"></i>Carrer</a></li>
+        <li><a class="nav-link " href="Product.html"></i>Product/Work</a></li>
+        <li><a class="nav-link active" href="Implant.html"></i>Implant Training</a></li>
+        <li><a class="nav-link " href="contacts.html"></i>Contact US</a></li>
+
+      </ul>
+    </nav>
+    
+     <div class="menu-toggle">
+        <div class="mobileviewNavigation"></div>
+      </div>
+      
+
+
+
+
+<!--For mobile Navigation And Paralax Annin Image op Top-->
+  <script src="js/script.js" type="text/javascript"></script>
+
+<!--for only Slide Images-->
+<script> 
+    var slideIndex = 0;
+
+showSlides(); 
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+
+  slideIndex++;
+
+  if (slideIndex > slides.length) {slideIndex = 1}    
+
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+
+  slides[slideIndex-1].style.display = "block";  
+  
+  dots[slideIndex-1].className += " active";
+
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+
+}
+</script>
+
+
+    </div>    
+  </header>
+
+      <!--RM >> NAV Title Center-->
+      <section class="contact-img parallax-background">
+          <div class="container">
+            <h1 class="title title-contact" style="color: gray"> <strong> Implant Training</strong>  </h1> 
+          </div>
+ 
+        </section> 
+
+  <br> <br>
+
+
+
+<p>
+  <font size="07" color="red">
+    <center>
+      <b>
+        INTERNSHIP<br>
+        __________
+        <font color="blue">
+          <br>
+          ___________
+        </font>
+      </b>
+      <br>
+      <br>
+      <font color="red" size="05">
+        We Provide The Intership To Candinate In Following Programing Langauges.
+      </font>
+    </center>
+  </font>
+</p>
+
+<p>
+  <center>
+    <br>
+    <br>
+  <img class="img-thumbnail" src="img/51.PNG" height="25%" alt="" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img class="img-thumbnail" src="img/52.PNG" alt="" />
+
+  <br>
+  <br>
+  <br>
+   <img class="img-thumbnail" src="img/53.PNG" height="25%" alt="" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img class="img-thumbnail" src="img/54.PNG" alt="" />
+
+  <br>
+  <br>
+  <br>
+   <img class="img-thumbnail" src="img/55.PNG" height="25%" alt="" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img class="img-thumbnail" src="img/56.PNG" alt="" />
+
+</center>
+</p>
+
+<p>
+  <font size="07" color="red">
+    <center>
+     
+      <br>
+      <br>
+      <font color="red" size="05">
+        We Provide The Intership To Candinate In Following Programing Langauges.
+        <br>
+        For Any Tpye Of Internship Contact Us
+      </font>
+    </center>
+  </font>
+</p>
+
+
+<br>
+<br>
+<br>
+
+
+<!--RM >> Footer-->
+  <footer>
+      
+    <nav class="footer-btm">
+      <ul>
+        <li><a target="_blank" href="#" class="footer-text"><i class="fa fa-copyright"></i> 2019 Reyansh Software</a></li>
+        <br>
+        <br>
+        <li><a target="_blank" class="line" href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
+        <li><a target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook-square"></i></a></li>
+        <li><a target="_blank" href="https://www.linkedin.com/feed/"><i class="fa fa-linkedin"></i></a></li>
+        <li><a target="_blank" href="https://twitter.com/"><i class="fa fa-twitter-square"></i></a></li>
+      </ul>
+    </nav>
+  </footer> 
+</body>
+</html>

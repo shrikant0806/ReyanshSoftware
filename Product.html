@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Reyansh Software</title>
+    <meta charset="utf-8">
+  
+<!--Booystap related File only-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script> 
+
+ 
+<!--Font Awesome-->
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+
+<!--Custome JS And CSS--> 
+<link href="css/theme.css" rel="stylesheet" type="text/css">
+
+<!--No cached Data no History-->
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+
+<style>
+    .justifiedp{
+        text-align: justify;
+       font-size: 18px;
+       letter-spacing: 1px;
+       line-height: 1.5;
+       
+    }    
+</style>
+
+<style>
+body
+{
+  background-color: #f2f2f2;
+}
+table {
+    border-collapse: collapse;
+    margin-right: 20%;
+  margin-left: 15%;
+  min-width: 70%;
+  max-width: 100%;
+}
+
+th, td {
+    text-align: left;
+        padding: 8px;
+        border-right: 1px solid white ;
+        }
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #2b1e56;
+    color: white;
+    }
+button{
+  background-color: #2b1e56;
+  color: white;
+  padding: 8px 40px;
+  font-size: 16px
+  border: 2px solid #2b1e56;
+
+}
+</style>
+
+
+</head>
+<body> 
+    <!--RM >> navigation Menu-->
+<header>
+    <div class="head-container">
+      <a href="index.html"><img src="img/1.PNG" alt="logo" class="logo"></a>
+    
+    <nav class="site-nav">
+      <ul>
+        <li><a class="nav-link" href="index.html">Home</a></li>
+        <li><a class="nav-link " href="About.html">About Us</a></li>  
+        <li><a class="nav-link " href="Services.html">Our Services</a></li>
+        <li><a class="nav-link " href="Carrer.html">Carrer</a></li>
+        <li><a class="nav-link active" href="Product.html">Product/Work</a></li>
+        <li><a class="nav-link " href="Implant.html">Implant Training</a></li>
+        <li><a class="nav-link " href="contacts.html">Contact US</a></li>
+
+      </ul>
+    </nav>
+    
+     <div class="menu-toggle">
+        <div class="mobileviewNavigation"></div>
+      </div>
+      
+
+
+<!--For mobile Navigation And Paralax Annin Image op Top-->
+  <script src="js/script.js" type="text/javascript"></script>
+
+<!--for only Slide Images-->
+<script> 
+    var slideIndex = 0;
+
+showSlides(); 
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+
+  slideIndex++;
+
+  if (slideIndex > slides.length) {slideIndex = 1}    
+
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+
+  slides[slideIndex-1].style.display = "block";  
+  
+  dots[slideIndex-1].className += " active";
+
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+
+}
+</script>
+
+
+    </div>    
+  </header>
+
+      <!--RM >> NAV Title Center-->
+      <section class="contact-img parallax-background">
+          <div class="container">
+            <h1 class="title title-contact" style="color: gray"> <strong> About Our Project And Work</strong>  </h1> 
+          </div>
+ 
+        </section> 
+
+  <br> <br>
+
+
+
+<section class="content"><div class="ic"></div>
+  <div class="container">
+    <div class="row">
+     
+        <h3 class="ta__center">Projects</h3>
+        <br>  
+          <div class="blog">
+         <!--   <div class="one_third first"> <img src="http://nzsolutions.in/images/doc.png" alt="" class="img_inner fleft"  ></div>--->
+             
+            <div class="text1" style="text-align: left;"><a href="#" style="padding: 10px ;padding-left: 50px;"><b>Smart Clinic</b></a></div>
+            
+           
+          <div class="extra_wrapper" style="text-align: justify; line-height: 1.5; letter-spacing: 1px">
+              <p class="justifiedp">It is a desktop application for OPD based clinics. It is useful to maintain records of patients in very transperent manner. Funcationality of this application is made very easy that any one can handle it very quickly. From appointment of patient to priscription, all the required forms are their in software. </p>                <p class="justifiedp">This software is created in Dot Net language .It can run on any OS with some requirments of software like Dot Net framework.</p>
+             
+           
+            </div>
+          </div>
+
+
+    
+      
+
+  
+
+    
+    
+
+          <hr>
+          <br>
+        
+        
+          <div class="blog">
+            <!--- <div class="one_third first"> <img src="http://nzsolutions.in/images/odcare.jpg" alt="" class="img_inner fleft" ></div>---->
+            <div class="text1" style="text-align: left;"><a href="#" style="padding: 10px ;padding-left: 50px;">ODCare Website </a></div>
+          
+           
+           <div class="extra_wrapper" style="text-align: justify; line-height: 1.5; letter-spacing: 1px">
+              <p class="justifiedp">This one is the Optical business website. This website is created in HTML,javascript language. It gives breif inforamtion about the business, about the products and services in which they deal.</p>
+            
+             
+            </div>
+          </div>
+        
+
+        <br>
+
+        <hr>
+        <br>
+        
+          <div class="blog">
+            <!---<div class="one_third first"> <img src="http://nzsolutions.in/images/designer-jewellery1.jpg" alt="" class="img_inner fleft" ></div>---->
+            <div class="text1" style="text-align: left;"><a href="#" style="padding: 10px ;padding-left: 50px;">Jewellary Android App</a></div>
+            
+           
+          <div class="extra_wrapper" style="text-align: justify; line-height: 1.5; letter-spacing: 1px">
+              <p class="justifiedp">This is anroid application. This application is made for keeping the records of the daily business. This application is useful to avoid record maintainance books.</p>
+              
+           
+           
+            </div>
+ 
+          </div>
+             
+    
+      </div>
+
+  </div>
+  </div> 
+
+ 
+
+  
+</div>
+
+<br>
+<br>
+
+<section class="content"><div class="ic"></div>
+  <div class="container">
+    <div class="row">
+     
+        <h3 class="ta__center">Our Further Products</h3>
+        <div class="blog">
+            
+                      
+            <div class="text1"><center>EaZy Clinic</center></div>
+           <div class="extra_wrapper" style="text-align: justify; line-height: 1.5; letter-spacing: 1px">
+              <p class="justifiedp">It is a desktop application for OPD based clinics. It is useful to maintain records of patients in very transperent manner. Funcationality of this application is made very easy that any one can handle it very quickly. From appointment of patient to priscription, all the required forms are their in software. </p>
+          <p class="justifiedp">  This software is created in Dot Net language .It can run on any OS with minimum requirments of software like Dot Net framework. And it is very cost efficient.
+              <br>
+             
+            </div>
+          </div>
+           <br>
+          <hr>
+           <br>
+          <div class="blog">
+            
+                    
+           <div class="text1"><center>EaZy Billing </center></div>
+           <div class="extra_wrapper" style="text-align: justify; line-height: 1.5; letter-spacing: 1px">
+              <p class="justifiedp">This one is the Billing App developed C A Firms. App is developed for managing Complete C A firm. This app can be used for printing Invoice, monthly reporting of client, users, Partners. 
+        Functionality for changing Tax, Financial year, Budget as user needed is managed very well.  </p>
+  <p class="justifiedp"> User interface of app is made friendly so that user cann't need special training. And costing of app is kept very low so that anyone can afford.  </p>         
+       <br>
+             
+            </div>
+          </div>
+          <br>
+          <hr>
+           <br>
+          <div class="blog">
+            
+                      
+           <div class="text1" ><center>  RecordBook</center></div>
+           <div class="extra_wrapper" style="text-align: justify; line-height: 1.5; letter-spacing: 1px">
+              <p class="justifiedp">As per name Record Book this is ERP for mainting multiple firms records with all expenses and accounts of firms.</p>
+              <br>
+           
+            </div>
+          </div>
+
+    
+      </div>
+
+  </div>
+</section>
+
+<br>
+<br>
+<br>
+
+<!--RM >> Footer-->
+  <footer>
+      
+    <nav class="footer-btm">
+      <ul>
+        <li><a target="_blank" href="#" class="footer-text"><i class="fa fa-copyright"></i> 2019 Reyansh Software</a></li>
+        <br>
+        <br>
+        <li><a target="_blank" class="line" href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
+        <li><a target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook-square"></i></a></li>
+        <li><a target="_blank" href="https://www.linkedin.com/feed/"><i class="fa fa-linkedin"></i></a></li>
+        <li><a target="_blank" href="https://twitter.com/"><i class="fa fa-twitter-square"></i></a></li>
+      </ul>
+    </nav>
+  </footer> 
+</body>
+</html>

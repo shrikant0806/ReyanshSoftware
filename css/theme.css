@@ -1,0 +1,542 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:300,400,700,900,1600');
+
+*, *::after, *::before {
+  box-sizing: border-box;
+  transition: all ease-in-out 250ms;
+}
+  
+.logo {
+  max-height: 4em;
+  margin-left: 2em;
+  float: left;
+}
+
+body {
+  margin: 0;
+  font-family: 'Nanum Gothic', sans-serif;
+  text-align: center;
+}
+
+img { 
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 95%;
+  max-width: 70em;
+  margin:  auto;
+}
+
+.clearfix::after,
+section::after,
+footer::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/*header Navigation manu included     
+======================*/
+.head-container {
+  width: 95%;
+  max-width: 100vw;
+  margin:  0;
+  position: relative;
+}
+
+header{
+  position: absolute;
+  left:0;
+  right: 0;
+  margin: 1em;
+  background-color: rgba(0,0,0,.2);
+  padding: 1em;
+  margin:0;
+}
+
+.site-nav {
+  position: absolute;
+  background-color: rgba(98, 114, 8, 0.95);
+  right: -5%;
+  top: 5em;
+  height: 0px;
+  overflow: hidden;
+  z-index: 100;
+}
+
+.site-nav--open {
+  height: auto;
+}
+
+.site-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-nav li {
+  border-bottom: 1px solid #473f3f;
+}
+
+.site-nav a {
+  color: #EBEBD3;
+  display: block;
+  padding: 1.5em 4em 1.5em 2em;
+  text-transform: uppercase;
+  text-decoration: none;  
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  background: rgba(178, 61, 48, .95);
+  color: #1e1919;
+}
+
+.site-nav li:last-child {
+  border-bottom: none;
+}
+
+.site-nav--icon {
+  display: inline-block;
+  width: 1em;
+  font-size: 1.5em;
+  margin-right: 1em;
+  text-align: right;
+  color: rgba(247, 243, 243, 0.4);
+}
+
+.menu-toggle {
+  padding: 1em;
+  position: absolute;
+  right: -7.5%;
+  top: .5em;
+  cursor: pointer;
+}
+
+.mobileviewNavigation,
+.mobileviewNavigation::before,
+.mobileviewNavigation::after {
+  content: '';
+  display: block;
+  background: #EBEBD3;
+  height: 3px;
+  width: 2.1em;
+  border-radius: 3px;
+  transition: all ease-in-out 200ms;
+}
+
+.mobileviewNavigation::before {
+  transform: translateY(-6px);
+}
+
+.mobileviewNavigation::after {
+  transform: translateY(3px);
+}
+
+.open .mobileviewNavigation {
+  transform: translateX(200px);
+}
+
+.open .mobileviewNavigation::before {
+  transform: translateX(-200px) rotate(45deg);
+}
+
+.open .mobileviewNavigation::after {
+  transform: translateX(-200px) translateY(-3px) rotate(-45deg);
+} 
+@media (min-width: 60rem){
+  
+  .menu-toggle {
+    display: none;
+  }
+  
+  .site-nav {
+    height: auto;
+    position: relative;
+    background: transparent;
+    float: right;
+    top: initial;
+    margin-top: 1em;
+  }
+  
+  .site-nav li {
+    display: inline-block;
+    border: none;
+  }
+  
+  .site-nav a {
+    padding: .5em;
+    margin-left: 1em;
+  }
+  
+  .site-nav a:hover,
+  .site-nav a:focus {
+    background: transparent;
+  }
+  
+  .site-nav--icon {
+    display: none;
+  }
+}   
+
+
+/*home Image======================*/
+.home-img{
+  background-image: url('../img/14.jfif');
+  background-position: center;
+  background-size: cover;
+  padding: 10em 0;
+  color: #FFF;
+}
+
+@media (min-width:10rem){
+  .home-img{
+    height: 30vh;
+    padding-top: 20vh;
+    
+  }
+}
+
+/*Contacts Image ======================*/
+.contact-img{
+  background-image: url('../img/contactus.jpg');
+  background-position: center;
+  background-size: cover;
+  padding: 10em 0;
+  color: #FFF;
+}
+
+@media (min-width:60rem){
+  .contact-img{
+    height: 30vh;
+    padding-top: 20vh;
+    
+  }
+}
+
+
+/*Our Specialities Image ======================*/
+.ourspeca-img{
+  background-image: url('../img/bg4.jpg');
+  background-position: center;
+  background-size: cover;
+  padding: 10em 0;
+  color: #FFF;
+}
+
+@media (min-width:60rem){
+  .ourspeca-img{
+    height: 30vh;
+    padding-top: 20vh;
+    
+  }
+}
+
+
+/*Main Title Anim*/
+.title{
+  font-size:2.5rem; 
+  margin-bottom: 1.5em;
+  font-weight: 400;
+  margin-top: 1em;
+}
+
+.title span{
+  font-weight: 300;
+  display: block;
+  font-size: .9em;
+}
+
+.title-cta{
+  margin: 0 0 .5em;
+}
+
+.unstyled-list{
+  margin: 0;
+  padding:0;
+  list-style-type:none;
+}
+
+@media (min-width: 60rem){
+  p{
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  .title {
+    font-size: 3.7rem;
+  }
+}
+.title-ttl {
+  text-shadow: 0 .2em rgba(0, 0, 0, 0.350);
+ } 
+
+ /*Home Page Cards Design*/
+.card {
+   box-shadow: 0 4px 8px 0 rgba(3, 15, 1, 0.377);
+   max-width: 400px;
+    
+   margin: auto;
+   text-align: center;
+   font-family: arial;
+ }
+ #cards{
+   font-style: oblique;
+  color: #66970c
+ }
+ .subTitle {
+   color: rgb(10, 49, 2);
+   font-size: 22px;
+ }
+ 
+ .card button {
+   border: none;
+   outline: 0;
+   padding: 12px;
+   color: white;
+   background-color: rgb(104, 105, 1);
+   text-align: center;
+   cursor: pointer;
+   width: 100%;
+   font-size: 18px;
+ }
+ 
+ .card button:hover {
+   opacity: 0.7;
+ }
+
+/*company Addres
+=============*/
+.cta{
+  background-color: #66970c;
+  padding:5em 0;
+}
+.cta span{
+  color: #FFF;
+}
+ 
+/*footer
+=============*/
+footer{ 
+   position: relative;
+   background:gray;
+   color: gray;
+   text-align: left;
+   padding: 2em 0;
+ }
+ 
+ 
+ .footer-btm{
+   position: absolute;
+   right: 0;
+   left: 0;
+   bottom:0;
+   background-color: gray;
+ }
+ 
+ .footer-btm ul {
+   margin:0;
+   padding: 1em 2em 3em 4em;
+   list-style: none;
+ }
+ 
+ .footer-btm li {
+   display: inline-block;
+   font-size: 2em;
+   float: right;
+  }
+ 
+ .footer-btm a {
+   margin-left: 2em;
+   text-decoration: none;
+   color: rgb(255,255,255);
+ }
+ 
+ .footer-text {
+   font-size: 2rem;
+   position: absolute;
+   left: 0;
+   text-transform: uppercase;
+ }
+   
+ 
+.menu-toggle {
+  padding: 1em;
+  position: absolute;
+  right: -7.5%;
+  top: .5em;
+  cursor: pointer;
+}
+
+.mobileviewNavigation,
+.mobileviewNavigation::before,
+.mobileviewNavigation::after {
+  content: '';
+  display: block;
+  background: #EBEBD3;
+  height: 3px;
+  width: 2.1em;
+  border-radius: 3px;
+  transition: all ease-in-out 200ms;
+}
+
+.mobileviewNavigation::before {
+  transform: translateY(-6px);
+}
+
+.mobileviewNavigation::after {
+  transform: translateY(3px);
+}
+
+.open .mobileviewNavigation {
+  transform: translateX(200px);
+}
+
+.open .mobileviewNavigation::before {
+  transform: translateX(-200px) rotate(45deg);
+}
+
+.open .mobileviewNavigation::after {
+  transform: translateX(-200px) translateY(-3px) rotate(-45deg);
+}
+
+
+@media (min-width: 60rem){
+  
+  .menu-toggle {
+    display: none;
+  }
+  
+  .site-nav {
+    height: auto;
+    position: relative;
+    background: transparent;
+    float: right;
+    top: initial;
+    margin-top: 1em;
+  }
+  
+  .site-nav li {
+    display: inline-block;
+    border: none;
+  }
+  
+  .site-nav a {
+    padding: .5em;
+    margin-left: 1em;
+  }
+  
+  .site-nav a:hover,
+  .site-nav a:focus {
+    background: transparent;
+  }
+  
+  .site-nav--icon {
+    display: none;
+  } 
+}
+
+ /*Texst Colors*/
+ 
+ .colorPrimary{
+  color: #7B1FA2;
+  
+}
+.colorPrimaryLight{
+  color: #ae52d4;
+}
+.colorPrimaryDark{
+color: #4a0072;
+}
+
+.textWhite {
+  color:white;
+  
+} 
+
+.textBlack{ 
+    color: black;
+}
+
+.textOrange{ 
+ color: orange;
+}
+.textBlue{
+ color: blue;
+}
+.service-heading{
+ color: #08107e;
+}
+ 
+ 
+/*Main Cursol Automatic Play KSLR*/ 
+.mySlides {display: none;}
+img {vertical-align: middle; }
+
+
+/* Slideshow container */
+.slideshow-container {
+max-width: 1366px;
+position: relative;
+margin: auto;
+opacity: .9;
+
+}
+
+ /* Caption text */
+.text {
+color: #f2f2f2;
+font-size: 15px;
+padding: 8px 12px;
+position: absolute;
+bottom: 8px;
+width: 100%;
+text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+color: #f2f2f2;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+
+.active {
+background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+from {opacity: .5} 
+to {opacity: 1}
+}
+
+@keyframes fade {
+from {opacity: .5} 
+to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+.text {font-size: 11px}
+}

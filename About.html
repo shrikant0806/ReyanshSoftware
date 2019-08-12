@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Reyansh Software</title>
+    <meta charset="utf-8">
+  
+<!--Booystap related File only-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script> 
+
+ 
+<!--Font Awesome-->
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+
+<!--Custome JS And CSS--> 
+<link href="css/theme.css" rel="stylesheet" type="text/css">
+
+<!--No cached Data no History-->
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+
+
+<style>
+    .justifiedp{
+        text-align: justify;
+       font-size: 18px;
+       letter-spacing: 1px;
+       line-height: 1.5;
+       
+    }    
+</style>
+
+<style>
+body
+{
+  background-color: #f2f2f2;
+}
+table {
+    border-collapse: collapse;
+    margin-right: 20%;
+  margin-left: 15%;
+  min-width: 70%;
+  max-width: 100%;
+}
+
+th, td {
+    text-align: left;
+        padding: 8px;
+        border-right: 1px solid white ;
+        }
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #2b1e56;
+    color: white;
+    }
+button{
+  background-color: #2b1e56;
+  color: white;
+  padding: 8px 40px;
+  font-size: 16px
+  border: 2px solid #2b1e56;
+
+}
+</style>
+
+
+</head>
+<body> 
+    <!--RM >> navigation Menu-->
+<header>
+    <div class="head-container">
+      <a href="index.html"><img src="img/1.PNG" alt="logo" class="logo"></a>
+    
+    <nav class="site-nav">
+      <ul>
+        <li><a class="nav-link" href="index.html">Home</a></li>
+        <li><a class="nav-link active" href="About.html">About Us</a></li>  
+        <li><a class="nav-link " href="Services.html">Our Services</a></li>
+        <li><a class="nav-link " href="Carrer.html">Carrer</a></li>
+        <li><a class="nav-link " href="Product.html">Product/Work</a></li>
+        <li><a class="nav-link " href="Implant.html">Implant Training</a></li>
+        <li><a class="nav-link " href="contacts.html">Contact US</a></li>
+
+      </ul>
+    </nav>
+    
+     <div class="menu-toggle">
+        <div class="mobileviewNavigation"></div>
+      </div>
+      
+
+
+<!--For mobile Navigation And Paralax Annin Image op Top-->
+  <script src="js/script.js" type="text/javascript"></script>
+
+<!--for only Slide Images-->
+<script> 
+    var slideIndex = 0;
+
+showSlides(); 
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+
+  slideIndex++;
+
+  if (slideIndex > slides.length) {slideIndex = 1}    
+
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+
+  slides[slideIndex-1].style.display = "block";  
+  
+  dots[slideIndex-1].className += " active";
+
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+
+}
+</script>
+
+
+    </div>    
+  </header>
+
+      <!--RM >> NAV Title Center-->
+      <section class="contact-img parallax-background">
+          <div class="container">
+            <h1 class="title title-contact"> <strong> About Us</strong>  </h1> 
+          </div>
+ 
+        </section> 
+
+  <br> <br>
+
+
+
+<div id="about" name="about">
+  <div class="container">
+    <div class="row white">
+        <div class="col-md-6"> <img class="img-responsive" src="img/32.PNG" align="center"> </div>
+      <div class="col-md-6">
+        <h3>About us</h3>
+        <font size="08" color="gray">
+        <p>We do not believe in reinventing the wheels rather our custom web development solution uses proven methodologies and framework to build websites as per your exact specifications. All of these tools we use have open licensing, meaning you own your system from top to bottom, with no restrictions on how you can deploy it in the future.</p>
+        </font>
+        <h3>Why choose us?</h3>
+        <font size="04" color="gray">
+        <p><b>Our mission is:</b> to deliver the best possible reliable software solutions to help improve our client's IT efficiency and business profitability. </font> </p>
+        <br>
+        <br>
+        <p><font size="04" color="gray">
+          We provide solutions in Web Design & Development, Web Hosting, Android Apps, SEO, Social Media Marketing, Ecommerce Development Services, Desktop Applications, Industrial Solutions, Portals.
+
+          We offer a full range of Web Design Services. Portals, Blogs, Online stores, Multimedia Galleries, Search Engine Optimization services and more. We specialize in affordable website design services for small to medium businesses.
+          </font>
+        </p>
+      </div>
+    </div>
+    <!-- row --> 
+  </div>
+</div>
+
+
+<br>
+<br>
+
+<!--RM >> Footer-->
+  <footer>
+      
+    <nav class="footer-btm">
+      <ul>
+        <li><a target="_blank" href="#" class="footer-text"><i class="fa fa-copyright"></i> 2019 Reyansh Software</a></li>
+        <br>
+        <br>
+        <li><a target="_blank" class="line" href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
+        <li><a target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook-square"></i></a></li>
+        <li><a target="_blank" href="https://www.linkedin.com/feed/"><i class="fa fa-linkedin"></i></a></li>
+        <li><a target="_blank" href="https://twitter.com/"><i class="fa fa-twitter-square"></i></a></li>
+      </ul>
+    </nav>
+  </footer> 
+</body>
+</html>

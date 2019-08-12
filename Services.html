@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Reyansh Software</title>
+    <meta charset="utf-8">
+  
+<!--Booystap related File only-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script> 
+
+ 
+<!--Font Awesome-->
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+
+<!--Custome JS And CSS--> 
+<link href="css/theme.css" rel="stylesheet" type="text/css">
+
+<!--No cached Data no History-->
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+
+
+<style>
+    .justifiedp{
+        text-align: justify;
+       font-size: 18px;
+       letter-spacing: 1px;
+       line-height: 1.5;
+       
+    }    
+</style>
+
+<style>
+body
+{
+  background-color: #f2f2f2;
+}
+table {
+    border-collapse: collapse;
+    margin-right: 20%;
+  margin-left: 15%;
+  min-width: 70%;
+  max-width: 100%;
+}
+
+th, td {
+    text-align: left;
+        padding: 8px;
+        border-right: 1px solid white ;
+        }
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #2b1e56;
+    color: white;
+    }
+button{
+  background-color: #2b1e56;
+  color: white;
+  padding: 8px 40px;
+  font-size: 16px
+  border: 2px solid #2b1e56;
+
+}
+</style>
+
+
+</head>
+<body> 
+    <!--RM >> navigation Menu-->
+<header>
+    <div class="head-container">
+      <a href="index.html"><img src="img/1.PNG" alt="logo" class="logo"></a>
+    
+    <nav class="site-nav">
+      <ul>
+        <li><a class="nav-link" href="index.html">Home</a></li>
+        <li><a class="nav-link " href="About.html">About Us</a></li>  
+        <li><a class="nav-link active" href="Services.html">Our Services</a></li>
+        <li><a class="nav-link " href="Carrer.html">Carrer</a></li>
+        <li><a class="nav-link " href="Product.html">Product/Work</a></li>
+        <li><a class="nav-link " href="Implant.html">Implant Training</a></li>
+        <li><a class="nav-link " href="contacts.html">Contact US</a></li>
+
+      </ul>
+    </nav>
+    
+     <div class="menu-toggle">
+        <div class="mobileviewNavigation"></div>
+      </div>
+      
+
+
+<!--For mobile Navigation And Paralax Annin Image op Top-->
+  <script src="js/script.js" type="text/javascript"></script>
+
+<!--for only Slide Images-->
+<script> 
+    var slideIndex = 0;
+
+showSlides(); 
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+
+  slideIndex++;
+
+  if (slideIndex > slides.length) {slideIndex = 1}    
+
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+
+  slides[slideIndex-1].style.display = "block";  
+  
+  dots[slideIndex-1].className += " active";
+
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+
+}
+</script>
+
+
+    </div>    
+  </header>
+
+      <!--RM >> NAV Title Center-->
+      <section class="contact-img parallax-background">
+          <div class="container">
+            <h1 class="title title-contact" style="color: gray"> <strong> Our Services</strong>  </h1> 
+          </div>
+ 
+        </section> 
+
+  <br> <br>
+
+
+
+
+ <section class="player_info section_padding">
+        <div class="container">
+            <div class="row">
+                <div class="player_info_item owl owl-carousel">
+                    <div class="player_info_iner">
+                        <div class="row align-items-center">
+                            <div class="col-md-6 col-xl-5">
+                                <div class="player_info_img">
+                                    <img src="img\23.jfif" height="25%" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-6 offset-xl-1 col-xl-5">
+                                <div class="player_info_text">
+                                    <h3>Any Tpye Of Software's will Be provided Here.</h3>
+                                    
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+
+            </div>
+         </div>
+</section>
+
+
+<br>
+<br>
+
+
+
+ <div class="page-banner" style="padding:40px 0; background: url(images/slide-02-bg.jpg) center #f9f9f9;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>App Development</h2>
+            <p>We Are Professional</p>
+          </div>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Start Content -->
+  
+    <!-- Start Content -->
+    <div id="content">
+      <div class="container">
+        <div class="page-content">
+
+
+          <div class="row">
+
+            <!-- Start Image Service Box 1 -->
+            <div class="col-md-4 image-service-box">
+              <img class="img-thumbnail" src="img\36.PNG" alt="" />
+              <h4>Easy Interface</h4><br>
+              <p align="justify">Reyansh Software's professional developer, develop very simple and easy user interface. We know that current users searching for simple easy apps. Our developers will full-fill your criteria. </p>
+            </div>
+            <!-- End Image Service Box 1 -->
+
+            <!-- Start Image Service Box 2 -->
+            <div class="col-md-4 image-service-box">
+              <img class="img-thumbnail" src="img\37.PNG" alt="" />
+              <h4>Great Support</h4><br>
+              <p align="justify">Reyansh Software's supports and service 24x7, all 365 days. Our highly qualified and experienced team always ready to troubleshoot the issues and makes our clients relax and do their work.</p>
+            </div>
+            <!-- End Image Service Box 2 -->
+
+            <!-- Start Image Service Box 3 -->
+            <div class="col-md-4 image-service-box">
+              <img class="img-thumbnail" src="img\38.PNG" alt="" />
+              <h4>High Secure</h4><br>
+              <p align="justify">Even we design Easy User Interface, but our main focus is on security. Because we believes that, security is vital than designing. Our Experts use genuine testing tools to deploy secure app.</p>
+            </div>
+            <!-- End Image Service Box 3 -->
+
+          </div>
+  </div>
+</div>
+</div>
+
+
+
+    <!-- Start Page Banner -->
+    <div class="page-banner" style="padding:40px 0; background: url(images/slide-02-bg.jpg) center #f9f9f9;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Software Development</h2>
+            <p>We Are Professional</p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <!-- End Page Banner -->
+
+
+    <!-- Start Content -->
+    <div id="content">
+      <div class="container">
+        <div class="page-content">
+
+
+          <div class="row">
+
+            <!-- Start Image Service Box 1 -->
+            <div class="col-md-4 image-service-box">
+              <img class="img-thumbnail" src="img\39.PNG" alt="" />
+              <h4>User Friendly</h4><br>
+              <p align="justify">We develop custom software, as per customer's requirement. We develop user friendly software, which can be handle by any new user. Simplicity is our main objective.</p>
+            </div>
+            <!-- End Image Service Box 1 -->
+
+            <!-- Start Image Service Box 2 -->
+            <div class="col-md-4 image-service-box">
+              <img class="img-thumbnail" src="img\40.PNG" alt="" />
+              <h4>Training</h4><br>
+              <p align="justify">Reyansh Software's conduct software training program at the time of software deployment, to the customer. Our experts train our customers, how to use or handle the software ?</p>
+            </div>
+            <!-- End Image Service Box 2 -->
+
+            <!-- Start Image Service Box 3 -->
+            <div class="col-md-4 image-service-box">
+              <img class="img-thumbnail" src="img\41.PNG" alt="" />
+              <h4>High Secure</h4><br>
+              <p align="justify">Even we design user friendly interface, but our main focus is on security. Because we believes that, security is vital than designing. Our Experts use genuine testing tools to deploy secure application.</p>
+            </div>
+            <!-- End Image Service Box 3 -->
+
+          </div>
+
+   </div>
+   </div>
+   </div>
+
+    <br>
+    <br>
+
+
+
+<br>
+<br>
+
+
+
+ <div class="page-banner" style="padding:40px 0; background: url(images/slide-02-bg.jpg) center #f9f9f9;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Website Designing and Development</h2>
+            <p>We Are Professional</p>
+          </div>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Start Content -->
+  
+    <!-- Start Content -->
+    <div id="content">
+      <div class="container">
+        <div class="page-content">
+
+
+          <div class="row">
+
+            <!-- Start Image Service Box 1 -->
+            <div class="col-md-4 image-service-box">
+              <img class="img-thumbnail" src="img\45.PNG" alt="" />
+              <h4>Clean Modern Code</h4><br>
+              <p align="justify">Our designer and developers works with fully concentrate on our business. Our website designers and developers use modern open source technology to build simple & secure website </p>
+            </div>
+            <!-- End Image Service Box 1 -->
+
+            <!-- Start Image Service Box 2 -->
+            <div class="col-md-4 image-service-box">
+              <img class="img-thumbnail" src="img\46.PNG" alt="" />
+              <h4>Great Support</h4><br>
+              <p align="justify">Reyansh Software's supports and service 24x7, all 365 days. Our highly qualified and experienced team always ready to troubleshoot the issues and makes our clients relax and do their work.</p>
+            </div>
+            <!-- End Image Service Box 2 -->
+
+            <!-- Start Image Service Box 3 -->
+            <div class="col-md-4 image-service-box">
+              <img class="img-thumbnail" src="img\47.PNG" alt="" />
+              <h4>High Quality Theme</h4><br>
+              <p align="justify">Our highly qualified designers, always design unique & High Quality themes. because we believes that "Different makes UNIQUE..!". We use different Open Source Technologies to design unique websites</p>
+            </div>
+            <!-- End Image Service Box 3 -->
+
+          </div>
+  </div>
+</div>
+</div>
+
+
+
+<br>
+<br>
+
+
+
+ <div class="page-banner" style="padding:40px 0; background: url(images/slide-02-bg.jpg) center #f9f9f9;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>IT Support</h2>
+            <p>We Are Professional</p>
+          </div>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Start Content -->
+  
+    <!-- Start Content -->
+    <div id="content">
+      <div class="container">
+        <div class="page-content">
+
+
+          <div class="row">
+
+            <!-- Start Image Service Box 1 -->
+            <div class="col-md-4 image-service-box">
+              <img class="img-thumbnail" src="img\42.PNG" alt="" />
+              <h4>Online Troubleshooting</h4><br>
+              <p align="justify">We provide online troubleshooting for our customers. Our experts solves the computer related issues online, and if needed our technical team always ready to troubleshoot. </p>
+            </div>
+            <!-- End Image Service Box 1 -->
+
+            <!-- Start Image Service Box 2 -->
+            <div class="col-md-4 image-service-box">
+              <img class="img-thumbnail" src="img\43.PNG" alt="" />
+              <h4>24x7 Support</h4><br>
+              <p align="justify"> We Reyansh Software's committed to provide 24x7 support. Our technical experts having more than five years of experience in working this field. We are always ready. </p>
+            </div>
+            <!-- End Image Service Box 2 -->
+
+            <!-- Start Image Service Box 3 -->
+            <div class="col-md-4 image-service-box">
+              <img class="img-thumbnail" src="img\44.PNG" alt="" />
+              <h4>Technical Experts</h4><br>
+              <p align="justify">Our technical team is highly qualified and well experienced. We are working in this field from last five to six years and we are very well know, how to solve issue.</p>
+            </div>
+            <!-- End Image Service Box 3 -->
+
+          </div>
+  </div>
+</div>
+</div>
+
+<br>
+<br>
+<br>
+
+<!-- Start Page Banner -->
+    <div class="page-banner" style="padding:40px 0; background: url(images/slide-02-bg.jpg) center #f9f9f9;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Logo Designing</h2>
+            <p>We Are Professional</p>
+          </div>
+          <div class="col-md-6">
+           
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Page Banner -->
+
+
+    <!-- Start Content -->
+    <div id="content">
+      <div class="container">
+        <div class="page-content">
+
+
+          <div class="row">
+
+            <!-- Start Image Service Box 1 -->
+            <div class="col-md-4 image-service-box">
+              <img class="img-thumbnail" src="img/48.PNG" alt="" />
+              <h4>Clean Design</h4><br>
+              <p align="justify">Code Wizard's professional designers, design very simple and clean logo design. We believes that the logo should be simple and clean. Because we know your Logo is your Identity. </p>
+            </div>
+            <!-- End Image Service Box 1 -->
+
+            <!-- Start Image Service Box 2 -->
+            <div class="col-md-4 image-service-box">
+              <img class="img-thumbnail" src="img/49.PNG" alt="" />
+              <h4>Unique Design</h4><br>
+              <p align="justify">We use different modern technologies to design your brand, and we know that brand should be unique. Our designers show their professionalism while design logo. Unique makes you different.</p>
+            </div>
+            <!-- End Image Service Box 2 -->
+
+            <!-- Start Image Service Box 3 -->
+            <div class="col-md-4 image-service-box">
+              <img class="img-thumbnail" src="img/50.PNG" alt="" />
+              <h4>Professional Team</h4><br>
+              <p align="justify">Our professional experts are well trained and well experienced. They know what our clients want, the logo that really catch the eye and feels unique and awesome. We full-fill your expectation.</p>
+            </div>
+            <!-- End Image Service Box 3 -->
+
+          </div>
+         </div>
+     </div>
+ </div>
+
+
+<br>
+<br>
+<br>
+
+
+
+<!--RM >> Footer-->
+  <footer>
+      
+    <nav class="footer-btm">
+      <ul>
+        <li><a target="_blank" href="#" class="footer-text"><i class="fa fa-copyright"></i> 2019 Reyansh Software</a></li>
+        <br>
+        <br>
+        <li><a target="_blank" class="line" href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
+        <li><a target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook-square"></i></a></li>
+        <li><a target="_blank" href="https://www.linkedin.com/feed/"><i class="fa fa-linkedin"></i></a></li>
+        <li><a target="_blank" href="https://twitter.com/"><i class="fa fa-twitter-square"></i></a></li>
+      </ul>
+    </nav>
+  </footer> 
+</body>
+</html>

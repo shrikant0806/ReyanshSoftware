@@ -1,0 +1,49 @@
+Most Important point in this CSS and JS 
+
+#1 Navigation menu  CSS
+    
+    1. if do u like to change top Navigation menu background color 
+    CSS LINE > no. 55 
+    
+    
+    * note > if you like to change color as normal transperent then use 
+    rgba(0,0,0,0)  
+    normaly rgb() is used for color but here is rgba so most imp .
+    check last no. rgba(0,0,0, this line is color transperency lavel) 
+
+    
+    2. if do u like to change background color of mobile view Navigation menu please go 
+    CSS LINE > NO . 62
+
+    3. CSS Line No. 119 is for only 
+    mobile view support code 
+
+#2 Home Page and Image and Others Pages  
+    1.  .home-img css line no. 191 
+    2.  contact-img css line 209
+    3.  ourspeca-img css line 228
+
+#3 Home page and our specalities card design CSS 
+   1. Card Design CSS Line no. 283 to 312
+
+
+#4 Footer Color and background 
+   1. css line no. 325 to  366
+
+
+#5 menu and mobile view 
+    1. css line no. 368  to 407 
+    2. mobile support css line no.  409 to 442
+ 
+
+////////////////////////////////////////////
+//////    JS Mobile  //////////////////////
+///////////////////////////////////////////
+
+#1 Mobile Navigation support 
+    1. js line 16 
+     this is for for supprt  
+
+#2 Image parallax Scroll  
+    1. js line 6 
+    this is for small up down animation     
